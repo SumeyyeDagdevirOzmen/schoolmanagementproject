@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
         monochrome = true,//raporlarin consoleda okunakli sekilde cikmasi icin
         features = "src/test/resources/features",
         glue = {"stepdefinitions","hooks"},
-        tags ="@apiRegression",
+        tags ="@DeanHava or @MesajHava or @DBHava",
         dryRun = false //Seneryonun adımlarını kontrol eder ve çalıştığını görürüz
 
 )
